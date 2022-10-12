@@ -1,0 +1,173 @@
+body {
+  background-color: #0e0e0e;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+a:hover {
+  color: #E50914;
+}
+
+h2 {
+  color: #FFFFFF;
+  font-size: 30px;
+}
+
+h1, h2, h3, h6, label, .navbar-brand, .nav-link {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h6 {
+  padding: 0 300px;
+}
+
+table {
+  padding-left: 20px;
+}
+
+tr {
+  overflow-x: hidden;
+}
+
+td {
+  padding: 0 9px;
+}
+
+hr {
+  border: 4px solid #808080;
+  margin: 0;
+}
+
+footer {
+  text-align: center;
+}
+
+label {
+  color: #FFFFFF;
+}
+
+.navbar {
+  background-color: #000000;
+  padding: 30px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.navbar-brand {
+  font-size: 25px;
+  color: #E50914;
+  padding: 35px 15px;
+}
+
+.navbar-nav {
+  display: inline-block;
+  margin-left: 30px;
+}
+
+.nav-link {
+  font-size: 15px;
+  padding: 0 17px;
+}
+
+.moviebg {
+  background-attachment: fixed;
+  max-height: 600px;
+  width: 100%;
+  height: auto;
+  opacity: 0.3;
+}
+
+.container {
+  position: relative;
+}
+
+.center {
+  color: white;
+  position: absolute;
+  top: 15%;
+  width: 100%;
+  text-align: center;
+  font-size: 50px;
+}
+
+.center-bot {
+  color: white;
+  text-align: center;
+  width: 100%;
+  font-size: 40px;
+}
+
+.center h3 {
+  font-size: 20px;
+}
+
+.btn {
+  color: #FFFFFF;
+  padding: 14px 28px;
+  cursor: pointer;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+}
+
+.solid-btn {
+  border: 2px solid #E50914;
+  background-color: #E50914;
+}
+
+.solid-btn:hover {
+  background-color: transparent;
+}
+
+.outline-btn {
+  border: 2px solid #FFFFFF;
+  background-color: transparent;
+}
+
+.outline-btn:hover {
+  background-color: #FFFFFF;
+  color: #000000;
+}
+
+.line {
+  margin: 150px 0;
+}
+
+.end {
+  color: #808080;
+  padding: 10px 15px;
+}
+
+.end:hover {
+  color: #FFFFFF;
+}
+
+.box {
+  position: relative;
+  border-right: 20px dashed #5E0914;
+  border-left: 20px dashed #5E0914;
+  left: 30%;
+  margin-top: 100px;
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 700px;
+  padding: 50px;
+}
+
+.extra {
+  font-size: 15px;
+  width: 260px;
+  padding: 10px;
+}
+
+.file {
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+}
